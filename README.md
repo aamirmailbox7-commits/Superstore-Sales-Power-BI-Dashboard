@@ -24,8 +24,14 @@ Q1 underperforms Q4 by 148% annually—a predictable gap strategic planning shou
 
 ## Dashboard Preview
 
-![Dashboard View 1](1.png)
-![Dashboard View 2](2.png)
-![Dashboard View 3](3.png)
+# Superstore Sales Power BI Dashboard
+
+## Dashboard Preview
+
+![Dashboard View 1](1.PNG)
+
+![Dashboard View 2](2.PNG)
+
+![Dashboard View 3](3.PNG)
 
 
