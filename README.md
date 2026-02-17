@@ -24,8 +24,8 @@ Q1 underperforms Q4 by 148% annually—a predictable gap strategic planning shou
 
 ## Dashboard Preview
 
-![Dashboard View 1](images/1.png)
-![Dashboard View 2](images/2.png)
-![Dashboard View 3](images/3.png)
+![Dashboard View 1](1.png)
+![Dashboard View 2](2.png)
+![Dashboard View 3](3.png)
 
 
