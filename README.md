@@ -20,3 +20,13 @@ Q1 underperforms Q4 by 148% annually—a predictable gap strategic planning shou
 - Interactive year slicers
 - Root cause analysis panels
 - Geographic performance mapping
+# Superstore Sales Power BI Dashboard
+
+## Dashboard Preview
+
+![Dashboard View 1](1.png)
+
+![Dashboard View 2](2.png)
+
+![Dashboard View 3](3.png)
+
