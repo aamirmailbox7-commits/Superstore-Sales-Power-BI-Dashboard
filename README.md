@@ -40,7 +40,8 @@ Behind the visuals lies a highly optimized, structured relational database envir
 ![Geographic Logistics](3.PNG)
 
 ### 4. Relational Data Model
-![Data Model Schema](4.png)
+![Data Model Schema](4.PNG)
+
 
 ## Dashboard Video Walkthrough
 
