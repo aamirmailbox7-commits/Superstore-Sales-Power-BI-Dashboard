@@ -2,36 +2,6 @@
 
 ![Dashboard Demo](PBIDesktop_Z9z3IOFfoR.gif)
 
-## Project Overview
-Analysis of 4 years of retail sales data to uncover operational insights hiding behind surface-level metrics.
-
-## Key Findings
-
-**Revenue Pattern**
-Q1 underperforms Q4 by 148% annually—a predictable gap strategic planning should address.
-
-**Shipping Inefficiency**
-8 cities drive 41% of orders but show 0-7 day delivery variance for identical destinations, signaling inventory fragmentation.
-
-## Tools Used
-- Power BI
-- DAX
-- Excel
-
-## Dashboard Features
-- Interactive year slicers
-- Root cause analysis panels
-- Geographic performance mapping
-
-## Dashboard Preview
-
-![Dashboard View 1](1.PNG)
-
-![Dashboard View 2](2.PNG)
-
-![Dashboard View 3](3.PNG)
-
-
 # Superstore Sales Power BI Dashboard
 
 ## Project Overview
@@ -48,26 +18,31 @@ The Consumer segment drives the majority of the business, accounting for 50.8% (
 **Systemic Shipping Inefficiencies**
 Despite an overall average shipping time of 3.96 days, a critical root cause analysis revealed severe inventory fragmentation. Eight major cities (including New York City, Los Angeles, and Philadelphia) drive 41% of the total order volume but experience erratic delivery ranges from 0 to 7 days for identical destinations. 
 
+## Data Architecture & Modeling
+Behind the visuals lies a highly optimized, structured relational database environment designed for rapid query performance and DAX measure evaluation:
+- **Star Schema Design:** Deployed a central Fact Table (Orders) surrounded by localized Dimension Tables (Customers, Products, Geography, Calendar) to ensure efficient data filtering and drill-down capabilities.
+- **Data Transformation (Power Query):** Cleaned raw datasets by enforcing strict data typing, removing duplicate records, and extracting granular date hierarchies for the time-intelligence calculations.
+- **DAX Implementation:** Engineered complex logic including Year-over-Year (YoY) growth tracking, dynamic average shipping calculations, and conditional formatting rules for visual performance indicators.
+
 ## Tools Used
-- Microsoft Power BI Desktop
-- DAX (Data Analysis Expressions)
-- Data Modeling & Power Query
-- Microsoft Excel
+- **Microsoft Power BI Desktop:** Visual rendering and dashboard deployment.
+- **DAX:** Advanced analytical calculations and measure creation.
+- **Power Query:** ETL (Extract, Transform, Load) processes.
+- **Microsoft Excel:** Raw data storage and preliminary exploration.
 
-## Dashboard Features
-- **Executive Storytelling:** Embedded text panels that clearly explain root causes and performance drivers directly alongside the data.
-- **Dynamic Filtering:** Interactive Year and Region slicers allow users to drill down into specific temporal or geographic data subsets.
-- **Geographic Mapping:** Utilizing both Bing bubble maps and color-coded treemaps to visualize order volume concentration by state.
-- **Granular Breakdowns:** Horizontal bar charts detailing exact performance across top customers, product sub-categories (Phones vs. Chairs), and shipping modes.
-- **Trend Analysis:** Line charts plotting quarterly revenue trajectories over the four-year lifecycle.
+## Visual Walkthrough & Previews
 
-## Dashboard Preview
+### 1. Executive Overview
+![Executive Overview](1.PNG)
 
-![Dashboard View 1 - Executive Overview](1.PNG)
+### 2. Product and Customer Segmentation
+![Segmentation Analysis](2.PNG)
 
-![Dashboard View 2 - Product and Customer Segmentation](2.PNG)
+### 3. Geographic and Logistics Analysis
+![Geographic Logistics](3.PNG)
 
-![Dashboard View 3 - Geographic and Logistics Analysis](3.PNG)
+### 4. Relational Data Model
+![Data Model Schema](4.png)
 
 ### Dashboard Video Walkthrough
 
