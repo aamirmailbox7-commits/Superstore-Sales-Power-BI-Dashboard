@@ -1,5 +1,7 @@
 # Superstore Sales Power BI Dashboard
 
+![Dashboard Demo](PBIDesktop_Z9z3IOFfoR.gif)
+
 ## Project Overview
 Analysis of 4 years of retail sales data to uncover operational insights hiding behind surface-level metrics.
 
@@ -20,11 +22,6 @@ Q1 underperforms Q4 by 148% annually—a predictable gap strategic planning shou
 - Interactive year slicers
 - Root cause analysis panels
 - Geographic performance mapping
-# Superstore Sales Power BI Dashboard
-
-## Dashboard Preview
-
-# Superstore Sales Power BI Dashboard
 
 ## Dashboard Preview
 
