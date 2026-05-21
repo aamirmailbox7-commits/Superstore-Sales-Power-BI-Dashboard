@@ -1,6 +1,6 @@
-![Dashboard Demo](PBIDesktop_Z9z3IOFfoR.gif)
-
 # Superstore Sales Power BI Dashboard
+
+![Dashboard Demo](PBIDesktop_Z9z3IOFfoR.gif)
 
 ## Project Overview
 An end-to-end business intelligence solution analyzing four years of retail sales data (2015-2018). Designed with a high-contrast, dark-mode interface to reduce eye fatigue during deep analysis, this dashboard goes beyond surface-level metrics to uncover operational bottlenecks and seasonal revenue patterns across $2M in total sales, 9,800 orders, and 793 unique customers.
